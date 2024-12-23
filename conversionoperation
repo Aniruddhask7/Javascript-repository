@@ -1,0 +1,28 @@
+// let score = "33"
+  //let score = "33abc"
+// let score = null
+// let score = undefined
+// let score = true
+// let score = false
+// console.log(typeof score);
+// console.log(typeof (score));
+
+// let valueinNumber  = Number(score)
+// console.log(valueinNumber);
+// console.log(typeof (valueinNumber));
+
+
+// let someNumber  = 12
+// //convert to string 
+// let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+
+let isLoggedIn = "Aniruddha"
+//convert to boolean
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);
+console.log(typeof booleanIsLoggedIn);
+
