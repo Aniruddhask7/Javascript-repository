@@ -20,9 +20,32 @@
 
 
 
-let isLoggedIn = "Aniruddha"
-//convert to boolean
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
-console.log(typeof booleanIsLoggedIn);
+// let isLoggedIn = "Aniruddha"
+// //convert to boolean
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
 
+// //prefix operation
+//prefix me a and b ki value increment hogi
+// let gameCounter = 52
+// ++gameCounter;
+// console.log(gameCounter);
+let a = 3;
+const b = ++a;
+console.log(a, b);
+
+//postfix operation
+//postfix me y ki value x ke original ke barabar hoti hai and x ki value x+ hoti hai 
+// let gameCounter = 52
+// gameCounter++;
+// console.log(gameCounter);
+let x = 3;
+const y = x++;
+console.log(x , y);
+
+
+  //compare
+console.log("2" < 1);
+console.log("2" > 1);
+console.log(2 > "1"); 
