@@ -1,0 +1,40 @@
+// Datatype
+// There are two type of datatype 
+
+// *Primitive  
+// String,Number,Boolean,Null,Undefined,Symbol,BigInt
+
+const score = 100   //number
+const scoreValue = 100.6  //number
+console.log(typeof scoreValue);
+
+
+const isLoggedIn = false  //boolean
+ const outsideTemp = null  //object
+let userEmail; //undefined
+console.log(typeof outsideTemp);
+
+const id = Symbol('22')
+ const anotherId = Symbol('22')
+console.log(id===anotherId);  //false  beacouse symbol is unic charector
+
+const bigNumber = 25104105100520n  //bigint
+console.log(typeof bigNumber);
+
+
+
+
+// *Non primitive
+Array,object,function
+const name=["vijay","Aryan","Gajanan","Aniruddha"]
+let myObj={
+  name:"Aniruddha",
+  age:"18"
+}
+ const myFunction  = function(){
+     console.log("Hello World")
+ }
+console.log(name);
+console.log(myObj);
+console.log(myFunction);
+
