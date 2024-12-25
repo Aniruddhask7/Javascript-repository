@@ -38,3 +38,18 @@ console.log(name);
 console.log(myObj);
 console.log(myFunction);
 
+//*********************************************************************************************************************************
+
+//Stack and heap 
+//*Stack(primitive)
+//it gives copy of datatypes 
+let myYoutubename ="kanadeaniruddha6@gmail.com"
+//copy datatypes
+let anothername = myYoutubename
+anothername = "ask@gmail.com"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+//heap(non-primitive)
+//it gives refrance of datatypes
