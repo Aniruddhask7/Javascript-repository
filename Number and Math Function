@@ -1,0 +1,60 @@
+const prise = 600
+//console.log(prise);
+
+const balance = new Number(600)
+// console.log(balance);
+
+// console.log(balance.toString().length);
+// console.log(typeof(balance));
+
+//to fixedmeans aftre the decimal Number
+// console.log(balance.toFixed(1));
+
+// console.log(balance.toLocaleString());
+
+// precision number after decimal +1
+const otherNumber = 125.896
+// console.log(otherNumber.toPrecision(3));
+
+
+const hundreds = 1000000
+// console.log(hundreds.toLocaleString(`en-IN`));
+
+//to check the value in Number. in browser
+
+// Number.MAX_SAFE_INTEGER
+// 9007199254740991
+// Number.MIN_VALUE
+// 5e-324
+// Number.NEGATIVE_INFINITY
+// -Infinity
+// Number.POSITIVE_INFINITY
+// Infinity
+// Number.prototype
+// Number {0, toExponential: ƒ, toFixed: ƒ, toPrecision: ƒ, toString: ƒ, …}
+// Number.valueOf(20)
+// ƒ Number() { [native code] }
+
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+console.log(Math);
+//convert negative to positive
+//console.log(Math.abs(-4));//4
+//javalcha
+// console.log(Math.round(4.6));//5
+// console.log(Math.round(4.4));//smaller 4
+// console.log(Math.ceil(4.2));//grater 5
+//khalcha
+// console.log(Math.floor(4.6));//4
+
+// console.log(Math.max(4,5,7,3,2));
+// console.log(Math.min(4,5,7,3,2));
+
+console.log(Math.random());
+console.log((Math.random()*10)+1);
+console.log((Math.random()*10)+1);
+
+const min = 10
+const max = 20
+console.log(Math.floor(Math.random() * (max-min + 1)) + min);
+console.log(Math.floor(Math.random() * (max-min + 1)) + min);
