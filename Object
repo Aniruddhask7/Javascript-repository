@@ -1,0 +1,118 @@
+//singleton
+//object create
+
+
+
+//object literals 
+const mySym = Symbol("key1")
+//when consedering bracket then symbol will be execute in jsuser object othervise execute only jsuser object
+const JsUser = {
+    name : "Aniruddha",
+    "full name":"Aniruddha Kanade",
+[mySym] : "mykey1", //this syntex will be write in object
+    age:18,
+    email: "aniruddha@google.com",
+    location: "Yavatmal",
+    isLoggedIn:false,
+    lastLoginDay:["Sunday","Monday"],
+    about: " felling Well"
+}
+// console.log(JsUser.email)
+// console.log(JsUser["email"])
+// console.log(JsUser["full name"])
+// console.log( typeof JsUser[mySym]);
+// console.log(JsUser[mySym]);
+// console.log(typeof mySym);
+
+ JsUser.email = "aniruddha@chatgpt.com"//freeze to use this vallue
+//  Object.freeze(JsUser)  
+   JsUser.email = "ask@gmail.com"      //freeze value  does note execute
+//   console.log(JsUser)
+
+JsUser.greeting = function(){
+    console.log("Hello");
+}
+console.log(JsUser.greeting());
+
+
+JsUser.greetingone = function(){
+    console.log(`Hii bro...my name is ${this.name}`);
+}
+console.log(JsUser.greetingone());
+
+JsUser.greetingTwo = function(){
+    console.log(`What about you? "${this.about}"`);
+}
+console.log(JsUser.greetingTwo());
+
+
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//singeltone Object
+//const tinderUser = new Object()  //sengelton object ,when constructor is formed then sengelton will be occered
+console.log(Object.values(tinderUser));
+const tinderUser = {}   //non singelton object 
+
+tinderUser.id  = 'ask@123'
+tinderUser.name = "@niruiddh@"
+tinderUser.isLoggedIn = false
+console.log(tinderUser);
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnproperty('isLoggedIn'));//boolean ans
+
+
+const anotherUser = {
+      email:"kanadeaniruddha6@gmail.com",
+     userFullname :{
+             userName:{
+           name: "@niruddh@",
+           surname:"kanade"
+          }
+        }
+    }
+    console.log(anotherUser.userFullname.userName.name.surname);
+    
+    
+    const obj1 = {1 : "a",2 : "b"} 
+    const obj2 = {3 : "c",4 : "d"}
+    // const obj3 = {obj1,obj2}(
+    //  const obj3 = Object.assign({},obj1 ,obj2)
+    //  console.log(obj3);
+    //spread operator
+    const obj3 = {...obj1,...obj2}
+    console.log(obj3);
+    
+// predifine datatype
+    const user = [
+        {
+            id:askanade,
+            email:"kanadeaniruddha@gmaai.com"
+        },
+        {
+            id:askanade,
+            email:"kanadeaniruddha@gmaai.com"
+        },
+        {
+            id:askanade,
+            email:"kanadeaniruddha@gmaai.com"
+        },
+        {
+            id:askanade,
+            email:"kanadeaniruddha@gmaai.com"
+        }
+    ]
+    user[1].email
+    console.log(tinderUser);
+
+    console.log(Object.keys(tinderUser));
+    
+    console.log(Object.values(tinderUser));
+
+    console.log(Object.entries(tinderUser));
+//all are convert to be array 
+console.log(Object.values(tinderUser));
+const tinderUser = {}   //non singelton object 
+
+console.log(tinderUser.hasOwnproperty('isLoggedIn'));
+
