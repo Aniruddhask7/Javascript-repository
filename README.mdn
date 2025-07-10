@@ -32,8 +32,10 @@
     <div class="resume">
         <h1>Aniruddha Santosh Kanade</h1>
         <p><strong>Email:</strong> kanadeaniruddha6@gmail.com</p>
-        <p><strong>LinkedIn:</strong>https://www.linkedin.com/in/aniruddha-kanade-9b39b12a8/</p>
-        <p><strong>GitHub:</strong>https://github.com/Aniruddhask7</p>
+        <strong>linkedIn:<a target="_blank"
+                href="https://www.linkedin.com/in/aniruddha-kanade-9b39b12a8/>">https://www.linkedin.com/in/aniruddha-kanade-9b39b12a8/></a></strong>
+        <strong>Github<a target="_blank"
+                href="https://github.com/Aniruddhask7">https://github.com/Aniruddhask7</a></strong>
 
         <div class="section">
             <h2>Skills</h2>
