@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,10 +27,13 @@
     </style>
 </head>
 <body>
+    <p><strong>Email:</strong> kanadeaniruddha6@gmail.com</p>
 
     <div class="resume">
         <h1>Aniruddha Santosh Kanade</h1>
-        <p><strong>Email:</strong> kanadeaniruddha6@gmail.com</p>
+<strong>Email:<a target="_blank"
+                href="https://mail.google.com/mail/u/0/#inbox">https://mail.google.com/mail/u/0/#inbox</a></strong>
+
         <strong>linkedIn:<a target="_blank"
                 href="https://www.linkedin.com/in/aniruddha-kanade-9b39b12a8/>">https://www.linkedin.com/in/aniruddha-kanade-9b39b12a8/></a></strong>
         <strong>Github<a target="_blank"
